@@ -1,25 +1,3 @@
-[package]
-authors = ["Jorge Aparicio <jorge@japaric.io>"]
-build = "build.rs"
-description = "Ergonomic, checked cast functions for primitive types"
-documentation = "https://docs.rs/cast"
-keywords = ["checked", "cast", "primitive", "integer", "float"]
-license = "MIT OR Apache-2.0"
-name = "cast"
-repository = "https://github.com/japaric/cast.rs"
-version = "0.2.3"
-
-[features]
-# Assume we should use `std` unless asked to do otherwise.
-default = ["std"]
-# Enable this to get a std::error::Error impl for convenient use with other
-# libraries.
-std = []
-# Enable this for i128/u128 support
-x128 = []
-
-[build-dependencies]
-rustc_version = "0.2.3"
-
-[dev-dependencies]
-quickcheck = "0.9.0"
+version https://git-lfs.github.com/spec/v1
+oid sha256:23f25d9fc1a043d8657560055136dd4c09d4bfbc2e585bff42e5bd3de688112a
+size 682
